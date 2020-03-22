@@ -8,4 +8,4 @@ ALMUSTAPHA.use(express.static(path.resolve(__dirname+'/')));
 
 ALMUSTAPHA.use(bodyparser.urlencoded({extended: false}));
 
-ALMUSTAPHA.listen(process.env.PORT || 1882);
+ALMUSTAPHA.listen(process.env.PORT || 3536);
